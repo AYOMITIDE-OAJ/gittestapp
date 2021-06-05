@@ -1,0 +1,81 @@
+$font: 'Montserrat', sans-serif;
+$black: #000000;
+
+body {
+  font-family: $font;
+  color: $black;
+  margin:0px 10%;
+} 
+
+h1,h2,h3,h4 {
+  font-family: $font;
+}
+
+h1 {
+  font-weight: bold;
+font-size: 45px;
+line-height: 61px;
+letter-spacing: 0.04em;
+}
+
+h2 {
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0;
+  font-weight: bold;
+}
+
+
+h3 {
+  font-size: 14px;
+line-height: 28px;
+letter-spacing: 0.5em;
+font-weight: normal;
+}
+
+h4 {
+  font-size: 14px;
+line-height: 15px;
+letter-spacing: 0;
+font-weight: bold;
+}
+
+.space-between{
+  flex-grow: 2;
+}
+
+h4 {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
+.pagesNumbered {
+  display: inline-block;
+  background-color: #E9E8E8;
+  padding: 3px 10px;
+  margin: 10px 5px 20px 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pagesNumbered:hover {
+  background-color: #898787;
+}
+
+.activePage {
+  background-color: #898787;
+  font-size: 22px;
+  padding: 3px 10px;
+  margin: 10px 5px 20px 5px;
+
+}
